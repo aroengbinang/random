@@ -20,7 +20,7 @@ list: 'PL1EB10B19837A1B61'
 });
 }
 function onPlayerReady(event) {
-num = Math.floor(Math.random() * 100);
+num = Math.floor(Math.random() * 149);
 setTimeout(() => {
 player.playVideoAt(num);
 }, 1000);
