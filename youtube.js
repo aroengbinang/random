@@ -15,7 +15,7 @@ events: {
 },
 playerVars: {
 listType: 'playlist',
-list: 'PL1EB10B19837A1B61?&mute=1'
+list: 'PL1EB10B19837A1B61'
 }
 });
 }
