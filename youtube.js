@@ -11,7 +11,9 @@ player = new YT.Player('player', {
 width: '660',
 height: '370',
 events: {
-'onReady': onPlayerReady
+'onReady': function(e) {
+        e.target.mute();
+      }, onPlayerReady
 },
 playerVars: {
 listType: 'playlist',
