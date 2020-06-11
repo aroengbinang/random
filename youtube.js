@@ -19,9 +19,9 @@ list: 'PL1EB10B19837A1B61'
 }
 });
 }
-function onPlayerReady(event) {player.mute();player.pauseVideo();
+function onPlayerReady(event) {player.mute();
 num = Math.floor(Math.random() * 149);
 setTimeout(() => {
 player.playVideoAt(num);
-}, 1000);
+}, 1000);player.getPlayerState(2)
 } //]]>
