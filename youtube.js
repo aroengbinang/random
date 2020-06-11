@@ -23,5 +23,5 @@ function onPlayerReady(event) {player.mute();
 num = Math.floor(Math.random() * 149);
 setTimeout(() => {
 player.playVideoAt(num);
-}, 1000);player.getPlayerState(2)
+}, 1000);
 } //]]>
