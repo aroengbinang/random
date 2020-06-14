@@ -30,7 +30,7 @@ player.playVideoAt(num);
 var done = false;
 function onPlayerStateChange(event) {
 if (event.data == YT.PlayerState.PLAYING && !done) {
-setTimeout(stopVideo, 100);
+setTimeout(stopVideo, 6000);
 done = true;
 }
 }
