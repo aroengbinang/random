@@ -21,7 +21,7 @@ list: 'PL1EB10B19837A1B61'
 });
 }
 function onPlayerReady(event) {player.mute();
-num = Math.floor(Math.random() * 149);
+num = Math.floor(Math.random() * 157);
 setTimeout(() => {
 player.playVideoAt(num);
 }, 1000);
